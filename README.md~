@@ -1,4 +1,6 @@
-# An attempt at a DNS system for Hyperboria
+DNAM: Domain Name Agreement Mesh
+================================
+
 
 One of the key features that makes CJDNS a good solution is the way it handles IP address assignment. It’s decentralized and yet secure, the perfect combination for our goals: a network that can resist censorship or shut down attempts. There is a fundamental property of IP addresses, though, that made that possible, one that domain names do not share. If you understand this fundamental property, you see that a truly decentralized, secure, shared domain name space is literally not possible.
 
