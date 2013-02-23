@@ -16,7 +16,7 @@ The DNAM system seeks to provide an "agreement mesh" of TLD master servers that 
 
 The result is that each member's name server will identify itself as the root (and will identify itself as "ns.dnam.", the root NS, as well), will identify itself as an authority for all member's TLDs (functioning as master for it's own, and slave for the others), and will provide NS records for all ICANN TLDs as well.
 
-## Requirements of then DNAM service
+## Requirements of the DNAM service
 
 In order to accomplish it's goals, the DNAM service will need to meet the following requirements:
 
