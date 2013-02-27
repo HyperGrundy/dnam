@@ -38,13 +38,17 @@ In order to accomplish it's goals, the DNAM service will need to meet the follow
 
 In order to function successfully, all DNAM members must operate acording to the same specifc set of rules. In effect, these rules act as a replacement for a single central authority (much the same way that a constitution and associated body of law replaces a monarch or dictator in a constitutional democracy). These rules will evolve as the details are hashed out, but the current set of rules that DNAM members MUST follow are:
 
- 1. Members MUST be available to participate in consensus (handling join requests and such).
+ 1. Members MUST be available to participate in consensus/request handling.
  
- 2. Each member may be master of exactly ONE top level domain (if you want another one, you need another node).
+ 2. Members MUST approve all valid join requests unless the prospect is known to be malicious. Censorship of any kind is considered malicious operation and makes the member subject to challenge for ejection.
  
- 3. Every member MUST include the correct necessary NS and AAAA records for all member TLDs in their root zone.
+ 3. Members MUST particpate in the enforcement of these rules against other members.
 
- 4. Every member MUST be available to resolve any other member's TLD (a client should need to contact only one member to resolve the entire DNAM).
+ 4. Each member may be master of exactly ONE top level domain (if you want another one, you need another node).
+ 
+ 5. Every member MUST include the correct necessary NS and AAAA records for all member TLDs in their root zone.
+
+ 6. Every member MUST be available to resolve any other member's TLD (a client should need to contact only one member to resolve the entire DNAM).
 
 The above rules are intended to be the definitive set, with everything else being efectively optional and up to the individual members preference (presumably they should take into account the preferences of their subordinant domains and clients, if they have any).
 
